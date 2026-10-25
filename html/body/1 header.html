@@ -1,0 +1,36 @@
+<!--
+Estructura Semántica
+La semántica en HTML significa que las etiquetas tienen un significado propio que describe qué tipo 
+de contenido contienen, tanto para el navegador como para los desarrolladores y las tecnologías de 
+asistencia (como lectores de pantalla para personas ciegas).
+
+la etiqueta <header> se utiliza para definir un encabezado para un documento o una sección.
+
+la etiqueta <time> se utiliza para representar fechas y horas en un documento HTML, 
+lo que permite a los navegadores y a las tecnologías de asistencia interpretar y mostrar correctamente 
+la información temporal.
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      span {
+        color: red;
+        padding: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Bienvenido a mi sitio web <span>Matias</span></h1>
+        <p>hola</p>
+        <time datetime="2026-10-24"> Octubre 24, 2026</time>
+      </header>
+    </div>
+  </body>
+</html>
